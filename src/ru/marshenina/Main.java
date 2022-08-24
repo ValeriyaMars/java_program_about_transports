@@ -27,7 +27,7 @@ public class Main {
         moto.haveMotoHelmet = true;
         moto.allAboutMoto();
 
-        Boat boat = new Boat("Вихрь", "Silver", 40);
+        Boats boat = new Boats("Вихрь", "Silver", 40);
         boat.allAboutBoat();
     }
 

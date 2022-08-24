@@ -1,11 +1,11 @@
 package ru.marshenina;
 
-public class Boat extends Transport {
+public class Boats extends Transport {
 
     private static String type = "Лодка";
     private int enginePower;
 
-    public Boat(String model, String color, int enginePower) {
+    public Boats(String model, String color, int enginePower) {
 
         super(model, color);
         this.enginePower = enginePower;
